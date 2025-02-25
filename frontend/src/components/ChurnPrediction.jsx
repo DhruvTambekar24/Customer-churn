@@ -16,7 +16,7 @@ const ChurnPrediction = () => {
     website_visit_frequency: 5,
     app_usage_frequency: 10,
     time_since_last_interaction: 30,
-    days_since_last_payment: 30, // New feature added
+    days_since_last_payment: 30, 
   });
 
   const [result, setResult] = useState(null);
@@ -47,7 +47,7 @@ const ChurnPrediction = () => {
         parseInt(formData.website_visit_frequency),
         parseInt(formData.app_usage_frequency),
         parseInt(formData.time_since_last_interaction),
-        parseInt(formData.days_since_last_payment), // Include new feature
+        parseInt(formData.days_since_last_payment), 
       ],
     };
 
