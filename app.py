@@ -4,7 +4,7 @@ import joblib
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for frontend communication
+CORS(app) 
 
 # Load the trained model
 model = joblib.load("churn_model.pkl")
